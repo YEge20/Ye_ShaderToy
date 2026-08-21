@@ -1,0 +1,6 @@
+E:\works\c++\EasyVisualEngine\EasyVisualEngine\ScriptCore\Intermediates\Debug\EasyVisualScriptCore.csproj.AssemblyReference.cache
+E:\works\c++\EasyVisualEngine\EasyVisualEngine\ScriptCore\Intermediates\Debug\EasyVisualScriptCore.csproj.CoreCompileInputs.cache
+E:\works\c++\EasyVisualEngine\EasyVisualEngine\ScriptCore\Intermediates\Debug\EasyVisualScriptCore.dll
+E:\works\c++\EasyVisualEngine\EasyVisualEngine\ScriptCore\Intermediates\Debug\EasyVisualScriptCore.pdb
+E:\works\c++\EasyVisualEngine\EasyVisualEngine\ScriptCore\EasyVisualScriptCore.dll
+E:\works\c++\EasyVisualEngine\EasyVisualEngine\ScriptCore\EasyVisualScriptCore.pdb

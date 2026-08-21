@@ -1,0 +1,82 @@
+Script_Version: 1.2.7.24
+FrameBuffer_SourceCode_FilePath:
+  MainImage(input FilePath): "./ShaderToy_Shader/Shader_Art_Coding_Introduction.glsl"
+  Buffer_A(input FilePath, or skip): "./asas.glsl"
+  Buffer_B(input FilePath, or skip): ""
+  Buffer_C(input FilePath, or skip): ""
+  Buffer_D(input FilePath, or skip): ""
+Texture_FilePath_and_Setting:
+  - Texture_0(input texture file path, or skip): ""
+    Enable_MipMap(could set true/false): false
+    Enable_SetLinearFilter(could set true/false): false
+  - Texture_1(input texture file path, or skip): ""
+    Enable_MipMap(could set true/false): false
+    Enable_SetLinearFilter(could set true/false): false
+  - Texture_2(input texture file path, or skip): ""
+    Enable_MipMap(could set true/false): false
+    Enable_SetLinearFilter(could set true/false): false
+  - Texture_3(input texture file path, or skip): ""
+    Enable_MipMap(could set true/false): false
+    Enable_SetLinearFilter(could set true/false): false
+  - Texture_4(input texture file path, or skip): ""
+    Enable_MipMap(could set true/false): false
+    Enable_SetLinearFilter(could set true/false): false
+  - Texture_5(input texture file path, or skip): ""
+    Enable_MipMap(could set true/false): false
+    Enable_SetLinearFilter(could set true/false): false
+  - Texture_6(input texture file path, or skip): ""
+    Enable_MipMap(could set true/false): false
+    Enable_SetLinearFilter(could set true/false): false
+  - Texture_7(input texture file path, or skip): ""
+    Enable_MipMap(could set true/false): false
+    Enable_SetLinearFilter(could set true/false): false
+  - Texture_8(input texture file path, or skip): ""
+    Enable_MipMap(could set true/false): false
+    Enable_SetLinearFilter(could set true/false): false
+  - Texture_9(input texture file path, or skip): ""
+    Enable_MipMap(could set true/false): false
+    Enable_SetLinearFilter(could set true/false): false
+  - Texture_10(input texture file path, or skip): ""
+    Enable_MipMap(could set true/false): false
+    Enable_SetLinearFilter(could set true/false): false
+  - Texture_11(input texture file path, or skip): ""
+    Enable_MipMap(could set true/false): false
+    Enable_SetLinearFilter(could set true/false): false
+  - Texture_12(input texture file path, or skip): ""
+    Enable_MipMap(could set true/false): false
+    Enable_SetLinearFilter(could set true/false): false
+  - Texture_13(input texture file path, or skip): ""
+    Enable_MipMap(could set true/false): false
+    Enable_SetLinearFilter(could set true/false): false
+  - Texture_14(input texture file path, or skip): ""
+    Enable_MipMap(could set true/false): false
+    Enable_SetLinearFilter(could set true/false): false
+  - Texture_15(input texture file path, or skip): ""
+    Enable_MipMap(could set true/false): false
+    Enable_SetLinearFilter(could set true/false): false
+ChannelSetting:
+  MainImage_Channel:
+    - Connect_Target(input texture_0,texture_1,texture_2...texture_15/buffer_A,...Buffer_D or skip): ""
+    - Connect_Target(input texture_0,texture_1,texture_2...texture_15/buffer_A,...Buffer_D or skip): ""
+    - Connect_Target(input texture_0,texture_1,texture_2...texture_15/buffer_A,...Buffer_D or skip): ""
+    - Connect_Target(input texture_0,texture_1,texture_2...texture_15/buffer_A,...Buffer_D or skip): ""
+  BufferA_Channel:
+    - Connect_Target(input texture_0,texture_1,texture_2...texture_15/buffer_A,...Buffer_D or skip): ""
+    - Connect_Target(input texture_0,texture_1,texture_2...texture_15/buffer_A,...Buffer_D or skip): ""
+    - Connect_Target(input texture_0,texture_1,texture_2...texture_15/buffer_A,...Buffer_D or skip): ""
+    - Connect_Target(input texture_0,texture_1,texture_2...texture_15/buffer_A,...Buffer_D or skip): ""
+  BufferB_Channel:
+    - Connect_Target(input texture_0,texture_1,texture_2...texture_15/buffer_A,...Buffer_D or skip): ""
+    - Connect_Target(input texture_0,texture_1,texture_2...texture_15/buffer_A,...Buffer_D or skip): ""
+    - Connect_Target(input texture_0,texture_1,texture_2...texture_15/buffer_A,...Buffer_D or skip): ""
+    - Connect_Target(input texture_0,texture_1,texture_2...texture_15/buffer_A,...Buffer_D or skip): ""
+  BufferC_Channel:
+    - Connect_Target(input texture_0,texture_1,texture_2...texture_15/buffer_A,...Buffer_D or skip): ""
+    - Connect_Target(input texture_0,texture_1,texture_2...texture_15/buffer_A,...Buffer_D or skip): ""
+    - Connect_Target(input texture_0,texture_1,texture_2...texture_15/buffer_A,...Buffer_D or skip): ""
+    - Connect_Target(input texture_0,texture_1,texture_2...texture_15/buffer_A,...Buffer_D or skip): ""
+  BufferD_Channel:
+    - Connect_Target(input texture_0,texture_1,texture_2...texture_15/buffer_A,...Buffer_D or skip): ""
+    - Connect_Target(input texture_0,texture_1,texture_2...texture_15/buffer_A,...Buffer_D or skip): ""
+    - Connect_Target(input texture_0,texture_1,texture_2...texture_15/buffer_A,...Buffer_D or skip): ""
+    - Connect_Target(input texture_0,texture_1,texture_2...texture_15/buffer_A,...Buffer_D or skip): ""

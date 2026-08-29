@@ -16,9 +16,6 @@ layout(binding = 2) uniform sampler2D iChannel2;
 layout(binding = 3) uniform sampler2D iChannel3;
 
 layout(location = 0) out vec4 Out_Color;
-layout(location = 1) out vec4 Out_Color_1;
-layout(location = 2) out vec4 Out_Color_2;
-layout(location = 3) out vec4 Out_Color_3;
 
 // afl_ext 2017-2024
 // MIT License

@@ -16,9 +16,6 @@ layout(binding = 2) uniform sampler2D iChannel2;
 layout(binding = 3) uniform sampler2D iChannel3;
 
 layout(location = 0) out vec4 Out_Color;
-layout(location = 1) out vec4 Out_Color_1;
-layout(location = 2) out vec4 Out_Color_2;
-layout(location = 3) out vec4 Out_Color_3;
 
 void mainImage( out vec4 O, vec2 I ){ 
     float i, t, v, s, j;
@@ -136,7 +133,6 @@ void main()
 	mainImage(test_color, gl_FragCoord.xy);
     vec3 fix_color = test_color.rgb;
 
-    //fix_color = pow(fix_color, vec3(3.0))-vec3(0.18) + 0.45*(0.5*pow(2.0*fix_color-1.0, vec3(3.0))+0.5);//直接增强颜色对比度，表现有极大的胶片质感
     fix_color = adjustSaturationBrightness(fix_color, 1.2, -0.05);
     Out_Color = vec4(fix_color, 1.0);
 }
